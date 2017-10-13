@@ -19,6 +19,9 @@
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="game\Actor.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="game\__init__.py">
       <SubType>Code</SubType>
     </Compile>

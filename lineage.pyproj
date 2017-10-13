@@ -19,12 +19,16 @@
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="game\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="lineage.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="img\logo.png" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="game\" />
     <Folder Include="img" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
